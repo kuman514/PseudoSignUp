@@ -1,0 +1,13 @@
+이 페이지는 구현 연습용 유사 회원가입 홈페이지입니다.
+이 홈페이지에 회원가입이 완료되어도 서버에 어떠한 정보도 저장되지 않습니다.
+각 입력칸이 요구하는 형식에 맞춰 자유롭게 기입하시면 되겠습니다.
+
+동의합니다.
+
+
+
+This page is a pseudo sign-up homepage to practice implementation.
+NONE OF YOUR INFORMATION will be saved here even after successfully finishing signing up.
+Please feel free to fill out each form according to the format required.
+
+I agree.
