@@ -24,8 +24,14 @@ button {
     margin-top: 10px;
     margin-bottom: 18px;
     padding: 6px;
-    background-color: #20cc20;
+    background-color: dodgerblue;
     color: #000000;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.1s linear;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #3ebbff;
 }
