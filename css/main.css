@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+main {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.i-agree {
+    text-align: right;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    all: unset;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    padding: 6px;
+    background-color: #20cc20;
+    color: #000000;
+    border-radius: 5px;
+    font-weight: bold;
+}
