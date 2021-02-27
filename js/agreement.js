@@ -11,7 +11,7 @@ function renderAgreement () {
         NONE OF YOUR INFORMATION will be saved here even after successfully finishing signing up.<br>
         Please feel free to fill out each form according to the format required.
     </p>
-    <div class="i-agree">
+    <div class="right">
         <input type="checkbox" name="agree">동의합니다. / I agree.<br>
         <button onclick="onClickAgreeNext()">계속하기 / Continue</button>
     </div>
