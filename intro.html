@@ -11,23 +11,22 @@
     <body>
         <main>
             <section>
-                <form action="" method="post" onsubmit="">
+                <form action="" method="post" onsubmit="return onSubmitSignUp()">
                     <h1>회원 가입 / Sign Up</h1>
                     <div>
                         <h2>아이디 / ID</h2>
-                        <input type="text" name="id"></input>
+                        <input type="text" name="id" required></input>
                     </div>
                     <div>
                         <h2>비밀번호 / Password</h2>
-                        <input type="password" name="password"></input>
-                    </div>
-                    <div>
+                        <input type="password" name="password" required></input>
                         <h2>비밀번호 확인 / Confirm Password</h2>
-                        <input type="password" name="confirm-password"></input>
+                        <input type="password" name="confirm-password" required></input>
+                        <input type="hidden" name="cryptpass"></input>
                     </div>
                     <div>
                         <h2>닉네임 / Nickname</h2>
-                        <input type="text" name="nickname"></input>
+                        <input type="text" name="nickname" required></input>
                     </div>
                     <div>
                         <h2>성명 / Real Name</h2>
