@@ -60,3 +60,15 @@ input[type="submit"]:hover {
     cursor: pointer;
     background-color: #3ebbff;
 }
+
+input[type="text"] {
+    all: unset;
+    width: 100%;
+    border-bottom: gray 3px solid;
+}
+
+input[type="password"] {
+    all: unset;
+    width: 100%;
+    border-bottom: gray 3px solid;
+}
