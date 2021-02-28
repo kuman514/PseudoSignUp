@@ -7,21 +7,39 @@ function renderInformation () {
 function checkPasswordsMatch () {
   const query = 'input[type="password"]'
   const passwords = document.querySelectorAll(query)
-  let allSame = true
-  for (let i in passwords) {
-    if (passwords[i] !== passwords[0]) {
-      allSame = false
-      break
-    }
+
+  if (passwords[0].value !== passwords[1].value) {
+    return false
   }
-  return allSame
+
+  return true
 }
 
 function cryptPassword () {
-  
+  const query = 'input[name="cryptpass"]'
+  const query2 = 'input[type="password"]'
+  const password = document.querySelector(query2)
+  const cryptpass = document.querySelector(query)
+  cryptpass.value = SHA256(password.value)
+}
+
+function erasePassword () {
+  const query = 'input[type="password"]'
+  const passwords = Array.from(document.querySelectorAll(query))
+
+  passwords.map(item => {
+    item.value = ''
+  })
 }
 
 function onSubmitSignUp () {
-  console.log('onSubmitSignUp')
-  return false
+  console.log("onSubmitSignUp")
+  if (!checkPasswordsMatch()) {
+    return false
+  } else {
+    cryptPassword()
+    erasePassword()
+  }
+
+  return true
 }
