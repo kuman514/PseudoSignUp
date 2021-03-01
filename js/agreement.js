@@ -34,5 +34,7 @@ function onClickAgreeNext () {
     document.querySelector('section').innerHTML = renderInformation()
   } else {
     console.log('not agreed')
+    sendToModal('동의가 필요합니다. / Agreement required.')
+    openModal()
   }
 }

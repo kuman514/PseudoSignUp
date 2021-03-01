@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <title>Pseudo Sign-up</title>
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/modal.css">
+        <script src="js/modal.js"></script>
         <script src="js/agreement.js"></script>
         <script src="js/sha256.js"></script>
         <script src="js/information.js"></script>
@@ -13,6 +15,15 @@
         <main>
             <section>
             </section>
+            <div class="modal hidden">
+                <div class="modal-overlay">
+                </div>
+                <div class="modal-content">
+                    <h2>메시지 내용</h2>
+                    <p class="modal-message">모달창</p>
+                    <button onclick="closeModal()">OK</button>
+                </div>
+            </div>
         </main>
     </body>
 </html>
