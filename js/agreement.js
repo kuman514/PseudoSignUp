@@ -31,6 +31,7 @@ function checkAgree () {
 function onClickAgreeNext () {
   if (checkAgree()) {
     console.log('agreed')
+    document.querySelector('section').innerHTML = renderInformation()
   } else {
     console.log('not agreed')
   }
