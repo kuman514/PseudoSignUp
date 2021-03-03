@@ -67,6 +67,8 @@ function erasePassword () {
 function onSubmitSignUp () {
   console.log("onSubmitSignUp")
   if (!checkPasswordsMatch()) {
+    sendToModal('패스워드와 확인암호가 일치하지 않습니다. / Passwords don\'t match each other.')
+    openModal()
     return false
   } else {
     cryptPassword()
