@@ -73,7 +73,8 @@ function onSubmitSignUp () {
   } else {
     cryptPassword()
     erasePassword()
+    location.href = 'complete.html'
   }
 
-  return true
+  return false
 }
