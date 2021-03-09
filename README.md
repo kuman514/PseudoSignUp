@@ -1,6 +1,7 @@
 # PseudoSignUp
 회원가입 폼 홈페이지입니다.   
-회원가입의 절차만을 간략히 나타낸 홈페이지이며, 실제로 정보가 저장되거나 전송되지 않습니다.
+회원가입의 절차만을 간략히 나타낸 홈페이지이며, 실제로 정보가 저장되거나 전송되지 않습니다.   
+[홈페이지 바로가기](https://kuman514.github.io/PseudoSignUp/)
 # 사용한 요소
 - `<form>` 태그 내 `<input>` 태그의 `required`, `minlength`, `maxlegnth` 속성을 통한 필수 입력 범위 설정
 - `<form>` 태그의 `onsubmit`의 `return`값(`true` 또는 `false`)을 통해 `POST`를 결정
